@@ -1,0 +1,6 @@
+image: rudloff/termux
+
+before_script:
+    - apt update
+
+test: whoami
