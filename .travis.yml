@@ -10,4 +10,4 @@ before_script:
     - sudo chown -R $USER tmp/system-readonly/
     - ./node_modules/.bin/grunt shell:copy symlinks
 
-script: ./node_modules/.bin/grunt build
+script: docker build .
