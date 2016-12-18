@@ -1,0 +1,30 @@
+{
+  "name": "termux-docker-image",
+  "description": "Docker image running Android and Termux",
+  "version": "0.1.0",
+  "author": "Pierre Rudloff",
+  "bugs": "https://github.com/Rudloff/termux-docker-image/issues",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-docker-io": "~0.7.0",
+    "grunt-fixpack": "~0.1.0",
+    "grunt-http-download": "~0.1.0",
+    "grunt-jslint": "~1.1.14",
+    "grunt-jsonlint": "~1.1.0",
+    "grunt-mkdir": "~1.0.0",
+    "grunt-shell": "~2.1.0"
+  },
+  "homepage": "https://github.com/Rudloff/termux-docker-image",
+  "keywords": [
+    "Android",
+    "Termux",
+    "docker"
+  ],
+  "license": "GPL-3.0",
+  "main": "Dockerfile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rudloff/termux-docker-image.git"
+  }
+}
