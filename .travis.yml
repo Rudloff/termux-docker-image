@@ -1,0 +1,13 @@
+language: node_js
+node_js: 6
+sudo: required
+services:
+    - docker
+
+before_script:
+    - ./node_modules/.bin/grunt download shell:unzip mkdir
+    - sudo mount tmp/android/x86_64/system.img tmp/system-readonly/
+    - sudo chown -R $USER tmp/system-readonly/
+    - ./node_modules/.bin/grunt shell:copy symlinks
+
+script: ./node_modules/.bin/grunt build
