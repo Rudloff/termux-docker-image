@@ -6,7 +6,9 @@ ENV LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib/
 ENV ANDROID_ROOT=/system
 ENV ANDROID_DATA=/data
 COPY tmp/bootstrap/ /data/data/com.termux/files/usr/
-RUN ["/system/bin/sh", "-c", "chmod +x /data/data/com.termux/files/usr/bin/*"]
-RUN ["/system/bin/sh", "-c", "echo '\n104.18.37.234 termux.net' >> /system/etc/hosts"]
-RUN ["/system/bin/sh", "-c", "chmod +x /data/data/com.termux/files/usr/lib/apt/methods/*"]
-RUN ["/system/bin/sh", "-c", "chmod +x /data/data/com.termux/files/usr/libexec/termux/command-not-found"]
+RUN ["/system/bin/sh", "-c", "mkdir /bin"]
+RUN ["/system/bin/sh", "-c", "ln -s /system/bin/sh /bin/sh"]
+RUN chmod +x /data/data/com.termux/files/usr/bin/*
+RUN echo '\n104.18.37.234 termux.net' >> /system/etc/hosts
+RUN chmod +x /data/data/com.termux/files/usr/lib/apt/methods/*
+RUN chmod +x /data/data/com.termux/files/usr/libexec/termux/command-not-found
