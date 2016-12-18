@@ -14,3 +14,7 @@ npm install
 grunt bootstrap
 grunt build
 ```
+
+## Known issues
+
+* DNS resolution does not work
