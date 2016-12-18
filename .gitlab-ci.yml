@@ -1,6 +1,7 @@
 image: rudloff/termux
 
-before_script:
-    - apt update
-
-test: whoami
+test:
+    before_script:
+        - apt update
+        - apt install screenfetch
+    script: screenfetch
