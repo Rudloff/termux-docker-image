@@ -1,0 +1,4 @@
+tmp/*.zip
+node_modules/
+tmp/android/
+tmp/system-readonly/
