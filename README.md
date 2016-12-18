@@ -18,3 +18,4 @@ grunt build
 ## Known issues
 
 * DNS resolution does not work
+* getprop does not work correctly
