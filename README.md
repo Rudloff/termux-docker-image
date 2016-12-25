@@ -15,6 +15,18 @@ grunt bootstrap
 grunt build
 ```
 
+## Run the image
+
+```bash
+docker run -it rudloff/termux
+```
+
+If you want to use logd, you need to run it inside a privileged container:
+
+```bash
+docker run --privileged -it rudloff/termux
+```
+
 ## Known issues
 
 * DNS resolution does not work
