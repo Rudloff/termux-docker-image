@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/sh
+if [ -f /system/bin/linker64 ]; then BITS=64; else BITS=; fi
+LD_LIBRARY_PATH=/system/lib$BITS PATH=$PATH:/system/bin exec /system/bin/settings "$@"

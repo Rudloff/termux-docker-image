@@ -1,6 +1,6 @@
 FROM scratch
 COPY tmp/system/ /system/
-CMD ["/data/data/com.termux/files/usr/bin/bash"]
+CMD /data/data/com.termux/files/usr/bin/bash
 ENV PATH /data/data/com.termux/files/usr/bin/:/data/data/com.termux/files/usr/bin/applets/:/system/bin/:$PATH
 ENV LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib/
 ENV ANDROID_ROOT=/system
@@ -12,3 +12,5 @@ RUN chmod +x /data/data/com.termux/files/usr/bin/*
 RUN echo '\n104.18.37.234 termux.net' >> /system/etc/hosts
 RUN chmod +x /data/data/com.termux/files/usr/lib/apt/methods/*
 RUN chmod +x /data/data/com.termux/files/usr/libexec/termux/command-not-found
+RUN echo "mkdir -p /dev/socket/; chmod 777 /dev/socket/; logd &" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+RUN mkdir -p /data/local/tmp/

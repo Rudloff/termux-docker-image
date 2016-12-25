@@ -1,0 +1,16 @@
+2c2adcad5b593162de390733dfe97293  data/data/com.termux/files/usr/bin/am
+25ad53a2fe7ab1aaf7c490a7d4b7fd1d  data/data/com.termux/files/usr/bin/chsh
+902eb7d8e4e33728c40a49ab9b36a688  data/data/com.termux/files/usr/bin/dalvikvm
+ad89b2694cc6db9ac7ef86ee96c2cb24  data/data/com.termux/files/usr/bin/df
+a3d1cc54df00b7b01aad812dde693b4a  data/data/com.termux/files/usr/bin/getprop
+ca2ef5b21ef23ed728fd72ddd460a69c  data/data/com.termux/files/usr/bin/ip
+bb28390bb286e0e1e4424ccad8fa859a  data/data/com.termux/files/usr/bin/logcat
+ba90036defaf5d6ca33e0ca4b4b122b4  data/data/com.termux/files/usr/bin/ping
+d9863d1466349c46fc30b07f2439f438  data/data/com.termux/files/usr/bin/ping6
+8f8bf65b9a92d4dc1f4ea302296abf26  data/data/com.termux/files/usr/bin/pm
+e15baeb7522eb4fbf5e1ecc44e3c66d3  data/data/com.termux/files/usr/bin/settings
+0745527ca8ef43f8f31e04d893444de9  data/data/com.termux/files/usr/bin/su
+569108b7d915d76d55f5edb34ee824fe  data/data/com.termux/files/usr/bin/termux-fix-shebang
+e02c1a4afe7e49998fbe6af04745864d  data/data/com.termux/files/usr/bin/termux-open-url
+9e07640b4520060069d57144c6c836e0  data/data/com.termux/files/usr/bin/termux-reload-settings
+0ff019d2f497d0a875565ea3d7d456b4  data/data/com.termux/files/usr/bin/termux-setup-storage

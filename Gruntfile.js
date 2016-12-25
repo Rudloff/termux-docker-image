@@ -30,7 +30,7 @@ module.exports = function (grunt) {
                         buildName: 'termux',
                         tag: 'latest',
                         username: 'rudloff',
-                        push: true
+                        push: false
                     }
                 }
             },
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
                 },
                 //We use the shell because grunt-zip has a memory issue: https://github.com/twolfson/grunt-zip/issues/18
                 unzip: {
-                    command: 'unzip tmp/x86_64-24_r07.zip -d tmp/android/; unzip tmp/bootstrap-x86_64.zip -d tmp/bootstrap/'
+                    command: 'unzip -o tmp/x86_64-24_r07.zip -d tmp/android/; unzip -o tmp/bootstrap-x86_64.zip -d tmp/bootstrap/'
                 },
                 //We use the shell because grunt-copy has some issues with symlinks: https://github.com/gruntjs/grunt-contrib-copy/issues/276
                 copy: {

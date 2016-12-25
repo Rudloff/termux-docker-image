@@ -1,0 +1,2 @@
+#!/data/data/com.termux/files/usr/bin/sh
+exec tcpsvd -vE 0.0.0.0 8021 ftpd /data/data/com.termux/files/home
