@@ -30,7 +30,7 @@ module.exports = function (grunt) {
                         buildName: 'termux',
                         tag: 'latest',
                         username: 'rudloff',
-                        push: true
+                        push: false
                     }
                 }
             },
