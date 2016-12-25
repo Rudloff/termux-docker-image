@@ -1,0 +1,8 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+# There needs to be a folder at $ANDROID_DATA/dalvik-cache
+export ANDROID_DATA=/data/data/com.termux/files/usr/var/android/
+mkdir -p $ANDROID_DATA/dalvik-cache
+
+unset LD_LIBRARY_PATH
+exec /system/bin/dalvikvm -Djava.io.tmpdir=/data/data/com.termux/files/usr/tmp "$@"
