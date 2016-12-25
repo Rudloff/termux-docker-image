@@ -19,7 +19,7 @@
   "keywords": [
     "Android",
     "Termux",
-    "docker"
+    "Docker"
   ],
   "license": "GPL-3.0",
   "main": "Dockerfile",
