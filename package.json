@@ -1,7 +1,7 @@
 {
   "name": "termux-docker-image",
   "description": "Docker image running Android and Termux",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Pierre Rudloff",
   "bugs": "https://github.com/Rudloff/termux-docker-image/issues",
   "devDependencies": {
@@ -19,7 +19,7 @@
   "keywords": [
     "Android",
     "Termux",
-    "docker"
+    "Docker"
   ],
   "license": "GPL-3.0",
   "main": "Dockerfile",
