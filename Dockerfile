@@ -18,4 +18,4 @@ RUN mkdir -p /data/data/com.termux/files/usr/etc/apt/preferences.d/
 RUN mkdir -p /data/data/com.termux/files/usr/etc/apt/apt.conf.d/
 RUN mkdir -p /data/data/com.termux/files/usr/var/cache/apt/archives/partial/
 RUN mkdir -p /data/data/com.termux/files/usr/var/lib/dpkg/updates/
-RUN mkdir -p //data/data/com.termux/files/usr/var/log/apt/
+RUN mkdir -p /data/data/com.termux/files/usr/var/log/apt/
