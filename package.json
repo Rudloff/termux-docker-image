@@ -22,7 +22,7 @@
     "Docker"
   ],
   "license": "GPL-3.0",
-  "main": "Dockerfile",
+  "main": "Gruntfile.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Rudloff/termux-docker-image.git"
